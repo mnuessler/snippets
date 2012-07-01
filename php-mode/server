@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: $_SERVER['']
+# key: server
+# --
+$_SERVER['$1']

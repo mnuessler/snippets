@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: $_POST['']
+# key: post
+# --
+$_POST['$1']

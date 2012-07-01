@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: $_REQUEST['...']
+# key: request
+# --
+$_REQUEST['$1']

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: require
+# key: req
+# --
+require_once ${1:dirname(__FILE__) . }'$2';
+$0

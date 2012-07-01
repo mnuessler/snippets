@@ -1,0 +1,6 @@
+# name: include
+# key: inc
+# contributor: Matthias Nuessler
+# --
+include_once ${1:dirname(__FILE__) . }'$2';
+$0
