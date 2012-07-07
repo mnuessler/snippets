@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: array
+# key: ary
+# --
+array(
+  $1,
+);
+$0

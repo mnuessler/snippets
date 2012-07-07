@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: foreach ($... as $...)
+# key: foreach
+# --
+foreach (\$${1:col} as \$${2:var}) {
+  $0;
+}
