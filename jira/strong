@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Matthias Nuessler
+# name: *strong*
+# key: strong
+# binding: C-c C-f C-b
+# type: command
+# --
+*`yas/selected-text`$0*

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Matthias Nuessler
+# name: ??citation??
+# key: cit
+# binding: C-c C-f C-c
+# type: command
+# --
+??`yas/selected-text`$0??
