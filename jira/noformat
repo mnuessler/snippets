@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Matthias Nuessler
+# name: noformat
+# key: noformat
+# --
+{noformat}
+`yas/selected-text`$0
+{noformat}

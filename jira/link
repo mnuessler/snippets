@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Matthias Nuessler
+# name: link
+# key: link
+# --
+[${1:description}|${2:http://}]

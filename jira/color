@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Matthias Nuessler
+# name: color
+# key: color
+# --
+{color:${1:$$(yas/choose-value '("black" "blue" "grey" "green" "red" "white" "yellow"))}}
+`yas/selected-text`$0
+{color}

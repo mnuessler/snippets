@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Matthias Nuessler
+# name: code block
+# key: code
+# --
+{code:${1:$$(yas/choose-value '("java" "xml" "sql" "javascript" "actionscript"))}${2:|title=${3:title}}${4:|borderStyle=${5:$$(yas/choose-value '("none" "solid" "dotted" "dashed" "dashed"))}}}
+`yas/selected-text`$0
+{code}

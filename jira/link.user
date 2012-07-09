@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Matthias Nuessler
+# name: link to user
+# key: link
+# --
+[~${1:username}]

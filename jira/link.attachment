@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Matthias Nuessler
+# name: link to attachment
+# key: link
+# --
+[^${1:attachment.ext}]

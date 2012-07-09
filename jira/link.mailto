@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# contributor: Matthias Nuessler
+# name: link mailto
+# key: link
+# --
+[mailto:${1:user@domain.com}]

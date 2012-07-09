@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Matthias Nuessler
+# name: quote
+# key: quote
+# --
+{quote}
+`yas/selected-text`$0
+{quote}
