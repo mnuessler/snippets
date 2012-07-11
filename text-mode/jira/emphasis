@@ -3,6 +3,5 @@
 # name: _emphasis_
 # key: emph
 # binding: C-c C-f C-e
-# type: command
 # --
-_`yas/selected-text`$0_
+_`yas/selected-text`$1_
