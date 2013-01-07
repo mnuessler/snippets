@@ -1,0 +1,23 @@
+# name: Postgres procedure
+# key: proc
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+/*
+ * 
+ */
+CREATE OR REPLACE FUNCTION {bobby_api}.${1:name}(
+    OUT o_status_id smallint,
+    OUT o_status_message text)
+RETURNS record AS
+$BODY$
+BEGIN
+
+    $0
+
+    o_status_id := 0;
+    o_status_message := 'OK';
+    RETURN;
+END;
+$BODY$
+  LANGUAGE plpgsql VOLATILE SECURITY DEFINER
+  COST 100;

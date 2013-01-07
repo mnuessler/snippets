@@ -1,0 +1,5 @@
+# name: Postgres raise error / report message
+# key: raise
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+RAISE ${1:level$$(yas-choose-value '("DEBUG" "LOG" "INFO" "NOTICE" "WARNING" "EXCEPTION"))} '${2:message}'${3:, ${4:arg}};

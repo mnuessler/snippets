@@ -1,0 +1,7 @@
+# name: Postgres if status OK
+# key: ifok
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+IF ${1:o_status_id} = 0 THEN
+    `yas-selected-text`$0
+END IF;

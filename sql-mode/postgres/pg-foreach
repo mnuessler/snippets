@@ -1,0 +1,7 @@
+# name: Postgres foreach loop
+# key: foreach
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+FOREACH ${1:elem}${2: SLICE ${3:no}} IN ARRAY ${4:array} LOOP
+    `yas-selected-text`$0
+END LOOP;

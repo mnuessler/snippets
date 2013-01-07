@@ -1,0 +1,7 @@
+# name: Postgres for loop
+# key: for
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+FOR ${1:var} IN ${2:1..10} LOOP
+    `yas-selected-text`$0
+END LOOP;
