@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# key: exa
+# name: Table with examples for scenario outline
+# expand-env: ((yas-indent-line 'fixed))
+# --
+    Examples:
+      | $1 | $2 | $0
