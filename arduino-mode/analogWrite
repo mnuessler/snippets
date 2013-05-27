@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: LOW
-# key: l
+# name: analogWrite
+# key: awrite
 # --
-LOW
+analogWrite(${1:pin}, ${2:value=0-255});$0
