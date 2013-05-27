@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Serial.print
+# key: print
+# --
+Serial.print${1:ln}(`yas-selected-text`$2)${3:;
+delay(${4:50});}$0

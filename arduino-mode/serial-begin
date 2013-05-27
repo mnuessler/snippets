@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Serial.begin
+# key: serb
+# --
+Serial.begin(`yas-selected-text`${1:9600});$0

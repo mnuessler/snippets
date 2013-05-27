@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: millis
+# key: ml
+# --
+millis()${1:;}$0

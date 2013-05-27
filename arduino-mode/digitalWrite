@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: digitalWrite
+# key: dwrite
+# --
+digitalWrite(${1:pin}, ${2:$$(yas/choose-value '("HIGH" "LOW"))});$0
