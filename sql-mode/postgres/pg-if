@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Postgres if
+# key: if
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+IF ${1:condition} THEN
+    `yas-selected-text`$0
+END IF;
