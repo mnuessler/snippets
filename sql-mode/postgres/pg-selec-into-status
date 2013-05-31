@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Postgres invoke sproc 
+# key: callsproc
+# --
+SELECT a.o_status_id, a.o_status_message INTO o_status_id, o_status_message
+FROM `yas/selected-text`${1:sproc} AS a;
