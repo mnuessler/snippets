@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# contributor: Matthias Nuessler
+# name: commit link
+# key: commit
+# binding: C-c C-f C-g
+# --
+{{[`mtt-git-browser-url`/`yas/selected-text`$1|`yas/selected-text`$1]}}

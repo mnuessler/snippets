@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# contributor: Matthias Nuessler
+# name: bug template
+# key: bug
+# --
+h6. Overview description
+
+`yas/selected-text`$1
+
+h6. Steps to reproduce
+
+$2
+
+h6. Actual results
+
+$3
+
+h6. Expected results
+
+$0
