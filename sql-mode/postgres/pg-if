@@ -3,6 +3,6 @@
 # key: if
 # expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
 # --
-IF b${1:condition} THEN
+IF ${1:condition} THEN
     `yas-selected-text`$0
 END IF;
