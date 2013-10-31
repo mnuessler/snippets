@@ -11,6 +11,8 @@ CREATE OR REPLACE FUNCTION {bobby_api}.${1:name}(
     OUT o_status_message text)
 RETURNS record AS
 $BODY$
+DECLARE
+
 BEGIN
 
     $0
@@ -20,5 +22,5 @@ BEGIN
     RETURN;
 END;
 $BODY$
-  LANGUAGE plpgsql VOLATILE SECURITY DEFINER
-  COST 100;
+LANGUAGE plpgsql VOLATILE SECURITY DEFINER
+COST 100;
