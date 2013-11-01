@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: Postgres if status not OK
+# key: ifnotok
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+IF ${1:o_status_id} != 0 THEN
+    `yas-selected-text`$0
+    RETURN;
+END IF;
