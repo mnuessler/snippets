@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: Postgres Anonymous Function
+# key: anon
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+DO language plpgsql $$
+${1:DECLARE
+${2:l_local_var record};}
+BEGIN
+    `yas-selected-text`$0
+END
+$$;
