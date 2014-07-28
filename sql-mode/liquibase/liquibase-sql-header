@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Liquibase SQL file header
+# key: lfsql
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+--liquibase formatted sql
+

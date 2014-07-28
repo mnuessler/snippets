@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Liquibase Changeset
+# key: lch
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+--changeset ${1:author}:${2:id}
+$0
+--rollback ${3:SELECT 1;}
