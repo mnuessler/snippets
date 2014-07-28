@@ -25,5 +25,5 @@ $BODY$
 LANGUAGE plpgsql VOLATILE SECURITY DEFINER
 COST 100;
 
-COMMENT ON {bobby_api}.$1() IS
+COMMENT ON FUNCTION {bobby_api}.$1() IS
 '';
