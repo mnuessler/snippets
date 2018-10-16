@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Mode file vars
+# key: mode
+# expand-env: ((yas/indent-line 'fixed) (yas/wrap-around-region 'nil))
+# --
+-- -*- mode: sql; sql-dialect: ${1:$$(yas-choose-value '("mysql" "postgres" "sqlite" "oracle"))} -*-
